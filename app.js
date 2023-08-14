@@ -1,3 +1,7 @@
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref, set } from "firebase/database";
+
+// Resto de tu código...
 
 const nombre = document.getElementById("nombre");
 const btenviar = document.getElementById("btenviar"); // Asegúrate de tener un elemento con el ID "btenviar" en tu HTML.
