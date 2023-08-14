@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Carreras</title>
+   <!-- Carga la biblioteca principal de Firebase -->
+   <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js"></script>
+   <!-- Carga los módulos específicos que necesitas -->
+   <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js"></script>
+   <!-- Agrega cualquier otro módulo de Firebase que necesites aquí -->
+   <script src="app.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body>
+    <h1>Carreras</h1>
+    <ul id="race-list">
+        <li><a href="formulario.html">Carrera 1</a></li>
+        <li><a href="formulario.html">Carrera 2</a></li>
+        <!-- Agrega las demás carreras -->
+    </ul>
+
+    <h2>Formulario de Inscripción</h2>
+    <form id="registration-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <input type="submit" id="btenviar" value="Enviar">
+    </form>
+    
+    <p>Opciones de Pago:</p>
+    <ul>
+        <li><a href="https://www.paypal.com">Pagar con PayPal</a></li>
+        <li><a href="https://www.mercadolibre.com">Pagar con Mercado Libre</a></li>
+    </ul>
+
+    <h2>Pago con tarjeta </h2>
+    <form id="pay-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre-pago" name="nombre" required>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido-pago" name="apellido" required>
+        
+        <label for="fecha de nacimiento">Fecha de Nacimiento:</label>
+        <input type="text" id="fecha-nacimiento-pago" name="fecha de nacimiento" required>
+
+        <label for="direccion">Direccion:</label>
+        <input type="text" id="direccion-pago" name="direccion" required>
+        
+        <label for="numero de tarjeta">Numero de tarjeta:</label>
+        <input type="text" id="numero-tarjeta-pago" name="numero de tarjeta" required>
+
+        <label for="fecha de vencimiento">Fecha de Vencimiento:</label>
+        <input type="text" id="fecha-vencimiento-pago" name="fecha de vencimiento" required>
+        
+        <label for="codigo de seguridad">Código de seguridad:</label>
+        <input type="text" id="codigo-seguridad-pago" name="codigo de seguridad" required>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
