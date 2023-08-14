@@ -4,7 +4,7 @@ const btenviar = document.getElementById("btenviar"); // Asegúrate de tener un 
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDsMMhgz99N0aTF2kUmcrLmf7sMTVoSWDw",
-  authDomain: "https://saalvador.github.io/Proyect/",
+  authDomain: "anonimus-pro-2f485.firebaseapp.com",
   databaseURL: "https://anonimus-pro-2f485-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "anonimus-pro-2f485",
   storageBucket: "anonimus-pro-2f485.appspot.com",
